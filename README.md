@@ -1,8 +1,32 @@
-# React + Vite
+# Blog App - MERN Stack (Front End React + Vite project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Routes
 
-Currently, two official plugins are available:
+| **Path**       | **Component**  | **Description**                          |
+|-----------------|----------------|------------------------------------------|
+| `/`            | BlogList       | Displays all blogs.                      |
+| `/blogs/:id`   | BlogDetails    | Displays a single blog post.             |
+| `/create`      | CreateBlog     | Form to create a new blog post.          |
+| `/edit/:id`    | EditBlog       | Form to update an existing blog.         |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+- Fetch, display, create, update, and delete blogs using the backend API.
+- Fully responsive UI built with React.js.
+- Optimized for development using Vite.
+- Simplified routing with `react-router-dom`.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- **React.js**: For building the user interface.
+- **Vite**: Fast development server and build tool.
+- **Axios**: For making HTTP requests to the backend.
+- **CSS**: For styling components.
+
+---
