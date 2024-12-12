@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import BlogList from './pages/BlogList';
-import BlogDetails from './pages/BlogDetails';
-import CreateBlog from './pages/CreateBlog';
-import EditBlog from './pages/EditBlog';
+import BlogList from './components/BlogList';
+import BlogDetails from './components/BlogDetails';
+import CreateBlog from './components/CreateBlog';
+import EditBlog from './components/EditBlog';
 
 function App() {
     return (
