@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchBlogs } from '../services/blogService'; // Import the API function
+import { fetchBlogs } from '../services/blogService'; 
 
 const BlogList = () => {
     const [blogs, setBlogs] = useState([]);
@@ -8,7 +8,7 @@ const BlogList = () => {
     useEffect(() => {
         const getBlogs = async () => {
             try {
-                const data = await fetchBlogs(); // Use the imported function
+                const data = await fetchBlogs(); 
                 setBlogs(data);
             } catch (error) {
                 console.error('Error fetching blogs:', error);

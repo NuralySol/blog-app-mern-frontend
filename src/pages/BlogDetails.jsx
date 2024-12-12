@@ -10,7 +10,7 @@ const BlogDetails = () => {
     useEffect(() => {
         const fetchBlogDetails = async () => {
             try {
-                const data = await fetchBlog(id); // Correct function name
+                const data = await fetchBlog(id); 
                 setBlog(data);
             } catch (error) {
                 console.error("Error fetching blog details:", error);

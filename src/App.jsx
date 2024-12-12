@@ -5,16 +5,16 @@ import CreateBlog from './pages/CreateBlog';
 import EditBlog from './pages/EditBlog';
 
 function App() {
-  return (
-      <Router>
-          <Routes>
-              <Route path="/" element={<BlogList />} />
-              <Route path="/blogs/:id" element={<BlogDetails />} />
-              <Route path="/create" element={<CreateBlog />} />
-              <Route path="/edit/:id" element={<EditBlog />} />
-          </Routes>
-      </Router>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<BlogList />} />
+                <Route path="/blogs/:id" element={<BlogDetails />} />
+                <Route path="/create" element={<CreateBlog />} />
+                <Route path="/edit/:id" element={<EditBlog />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
